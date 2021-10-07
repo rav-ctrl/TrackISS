@@ -1,9 +1,12 @@
 package com.ravctrl.trackiss.domain
 
-interface repo {
+import com.ravctrl.trackiss.data.model.ISSLocation.IssPosition
+import com.ravctrl.trackiss.data.model.ISSResidents.People
 
-    fun getCoordinates()
+interface Repo {
 
-    fun getResidents()
+    suspend fun getCoordinates(): IssPosition?
+
+    suspend fun getResidents(): List<People>?
 
 }

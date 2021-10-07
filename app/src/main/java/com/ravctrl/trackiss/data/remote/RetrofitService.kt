@@ -1,4 +1,4 @@
-package com.ravctrl.trackiss.data.model.remote
+package com.ravctrl.trackiss.data.remote
 
 import com.google.gson.GsonBuilder
 import com.ravctrl.trackiss.data.model.ISSLocation.ISSLocation
